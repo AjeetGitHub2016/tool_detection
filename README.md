@@ -7,7 +7,7 @@ The problem statement and dataset can be found at <http://camma.u-strasbg.fr/m2c
 * Download and Install Miniconda 3 for Python 3 from <https://conda.io/miniconda.html>
 * Edit `env.bat` to point to installed location.
 * Run `env.bat`
-* Run  the following command environment named `tool_detection`.
+* Run  the following command to create environment named `tool_detection`.
 ```
 conda env create -f tool_detection.yml
 ```
@@ -23,8 +23,13 @@ jupyter notebook
 ## Tensorflow GPU
 
 * To use GPU enabled learning you would need to install tensorflow gpu. Instructions can be found at <https://www.tensorflow.org/install/install_windows>.
-* The required installers can be found at \\\\10.80.0.220\Common_Share\Nitish\Software\CUDA 9.0.
+* The required installers can be found at \\10.80.0.220\Common_Share\Nitish\Software\CUDA 9.0.
 * After CUDA installation you need to extract cuDNN available in the same folder into the CUDA installation path.
+
+## Preprocessed Data
+
+* The Video data has been pre-processed and dumped into HDF5 files for easy access and maintainance.
+* Preprocessed data can be found at \\10.80.0.220\Common_Share\Nitish\tool_detection
 
 ### Congratulations
 Now you are ready to train your deep neural networks.
