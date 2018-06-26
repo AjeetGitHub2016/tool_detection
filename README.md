@@ -1,5 +1,7 @@
 # Surgical Tool Detection using Convolutional Neural Networks
 
+The problem statement and dataset can be found at <http://camma.u-strasbg.fr/m2cai2016/index.php/program-challenge/>.
+
 ## Environment Setup
 
 * Download and Install Miniconda 3 for Python 3 from <https://conda.io/miniconda.html>
